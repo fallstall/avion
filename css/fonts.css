@@ -1,31 +1,31 @@
 @font-face {
     font-family: "Satoshi";
-    src: url(/font/Satoshi-Bold.otf), sans-serif;
+    src: url("../font/Satoshi-Bold.otf"), sans-serif;
     font-weight: 700;
     font-style: normal;
     font-display: swap;
 }
 @font-face {
     font-family: "Satoshi";
-    src: url(/font/Satoshi-BoldItalic.otf), sans-serif;
+    src: url("../font/Satoshi-BoldItalic.otf"), sans-serif;
     font-weight: 900;
     font-style: normal;
 }
 @font-face {
     font-family: "Satoshi";
-    src: url(/font/Satoshi-Light.otf), sans-serif;
+    src: url("../font/Satoshi-Light.otf"), sans-serif;
     font-weight: 200;
     font-style: normal;
 }
 @font-face {
     font-family: "Satoshi";
-    src: url(/font/Satoshi-Medium.otf), sans-serif;
+    src: url("../font/Satoshi-Medium.otf"), sans-serif;
     font-weight: 600;
     font-style: normal;
 }
 @font-face {
     font-family: "Satoshi";
-    src: url(/font/Satoshi-Regular.otf) sans-serif;
+    src: url("../font/Satoshi-Regular.otf") sans-serif;
     font-weight: 400;
     font-style: normal;
 }
