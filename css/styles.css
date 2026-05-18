@@ -1,0 +1,485 @@
+@import "/css/fonts.css";
+@import "/css/variables.css";
+
+a, p, span, li, h1, h2, h3, h4, h5, h6, div, button {
+    font-family: "Satoshi";
+    color: var(--text);
+}
+
+body {
+    margin: 0;
+    background-color: var(--background);
+}
+
+/* =========================
+   Header container
+========================= */
+.header {
+    width: 100%;
+}
+
+.navigation_menu {
+    max-width: 1920px;
+    margin: 0 auto;
+    padding: 0 80px; /* как в макете */
+}
+
+/* =========================
+   Top navigation
+========================= */
+.nav_icons {
+    position: relative;
+    display: flex;
+    align-items: center;
+    height: 88px; /* соответствует макету */
+}
+
+/* left */
+.nav-left {
+    display: flex;
+    align-items: center;
+    padding-left: 21px;
+}
+
+/* center */
+.nav-center {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    color: #22202E;
+}
+
+.heading {
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 140%;
+}
+
+/* right */
+.nav-right {
+    margin-left: auto;
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    padding-right: 21px;
+}
+
+.nav-right img,
+.nav-left img {
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+}
+.main-nav {
+    width: 100%;
+}
+        
+.nav-menu {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 35px;
+    list-style: none;
+    padding: 0;
+}
+        
+.nav-menu li {
+    position: relative;
+}
+        
+.nav-menu a {
+    text-decoration: none;
+    color: #726E8D;
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 0.3px;
+    padding: 8px 5px;
+    transition: all 0.3s ease;
+    position: relative;
+}
+.nav-menu a:hover {
+    color: black;
+}
+.hr_top {
+    width: 1750px;
+    weight: 9px;
+    border-color: rgb(255, 255, 255);
+    border-width: 2px;
+}
+.center_photo {
+    width: 40px;
+    height: auto;
+}
+.center {
+    width: 1706px;
+    height: 778px;
+    background-image: url(/images/chair.png);
+    margin: 0 auto;
+    margin-top: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.title_center {
+    color: white;
+    font-size: 42px;
+}
+.items_top {
+    margin: 0 auto;
+    margin-left: 80px;
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;S
+    width: 800px;
+    height: 90px;
+}    
+.btn_center {
+    width: 226px;
+    height: 74px;
+    color: #ffffff;
+    background-color: #554f7b;
+    font-size: 21px;
+    border: none;
+    cursor: pointer;
+    transform: scale(1);
+    transition: all 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+.btn_center:hover {
+    background-color: #6a6397;
+    transform: scale(1.05);
+
+}
+.btn_top {
+    padding-top: 40px;
+}
+
+.subtitle_center {
+    display: flex;
+    color: white;
+    margin-left: 80px;
+    margin-bottom: 90px;
+    font-size: 24px;
+}
+/*следующая часть*/
+.second_part {
+   margin: 0 auto;
+   width: 1920px;
+   height: 473px;
+   padding-top: 100px;
+}
+.title_part {
+    font-size: 32px;
+    text-align: center;
+}
+.triggers {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 120px;
+    padding-left: 80px;
+    padding-right: 110px;
+}
+.trigger_title {
+    font-size: 26px;
+    padding-top: 20px;
+}
+.trigger_subtitle {
+    font-size: 21px;
+    padding-top: 15px;
+}
+.trigger_svg {
+    width: 32px;
+    height: auto;
+}
+/*галлерея*/
+.gallery {
+    width: 1920px;
+    height: 900px;
+    margin: 0 auto;
+    padding-top: 60px;
+}
+.pictures {
+    display: flex;
+    justify-content: space-around;
+    padding-left: 80px;
+    padding-right: 80px;
+}
+.title_gallery {
+    font-size: 43px;
+    color: #2A254B;
+    padding-left: 95px;
+    padding-bottom: 40px;
+}
+.gallery_title {
+    font-size: 26px;
+    padding-top: 25px;
+}
+.gallery_subtitle {
+    font-size: 26px;
+    padding-top: 20px
+}
+.btn_gallery {
+    text-align: center;
+    padding-top: 75px;
+}
+.btn_gallery_part {
+    width: 226px;
+    height: 74px;
+    color: #2A254B;
+    background-color: #f2f2f2;
+    font-size: 21px;
+    border: none;
+    cursor: pointer;
+    transform: scale(1);
+    transition: all 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+.btn_gallery_part:hover {
+    background-color: #dedede;
+    transform: scale(1.05);
+
+}  
+.block_second {
+    cursor: pointer;
+    transform: scale(1);
+    transition: all 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+.block_second:hover {
+    transform: scale(1.05);
+}
+.block_one {
+    cursor: pointer;
+    transform: scale(1);
+    transition: all 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+.block_one:hover {
+    transform: scale(1.05);
+}
+/*вопросы*/
+.qwishion {
+    margin: 0 auto;
+    margin-top: 40px;
+    width: 1920px;
+    height: 640px;
+    background-color: rgb(240, 240, 240);
+}
+.text {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 170px;
+}
+
+.qwishion_title {
+    font-size: 48px;
+    color: #2A254B;
+    font-weight: 500;
+}
+.subtitle_qwishion {
+    font-size: 21px;
+    text-align: center;
+    color: #2A254B;
+}
+
+
+.form_container {
+    padding-top: 140px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.signup-form{
+    display: flex;
+}
+.signup-btn_div {
+    display: flex;
+}
+.email-input {
+    width: 470px;
+    height: 74px;
+    padding-left: 40px;
+    border: none;
+    font-size: 21px;
+    color: #6f4869;
+
+}
+.signup-btn{
+    border: none;
+    width: 152px;
+    background-color: #2A254B;
+    color: #ffffff;
+    font-size: 21px;
+    cursor: pointer;
+    transform: scale(1);
+    transition: all 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+.signup-btn:hover {
+    background-color: #3b346a;
+    transform: scale(1.05);
+
+} 
+
+
+
+
+.second_block {
+    margin: 0 auto;
+    width: 1920px;
+    height: 804px;
+    display: flex;
+    flex-direction: row-reverse;
+}
+.picture {
+    width: 960px;
+    height: 804px;
+    background-image: url(/images/Image\ \(1\).png);
+    display:flex  
+}
+.another_part {
+    width: 960px;
+    height: 804px;
+    padding-left: 80px;
+    padding-top: 80px;
+    display:flex;
+    flex-direction: column;
+}
+.title_block {
+    font-size: 32px;
+    display:flex;
+    color: #22202E;
+}
+.subtitle_block {
+    font-size: 21px;
+    padding-top: 45px;
+    display:flex;
+    color: #22202E;
+}
+.btn_block {
+    padding-top: 220px;
+    display:flex;
+    width: 200px;
+    height: 74px;
+}
+.btn_in_block {
+    border: none;
+    width: 152px;
+    background-color: #e5e5e5;
+    color: #22202E;
+    font-size: 21px;
+    cursor: pointer;
+    transform: scale(1);
+    transition: all 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+.btn_in_block:hover {
+    background-color: #e0c8ba;
+    transform: scale(1.05);
+
+}     
+.footer {
+    width: 1920px;
+    height: 518px;
+    margin: 0 auto;
+    padding: 0;
+    position: relative;
+    background-color: #2A254B;
+}
+
+.footer__content {
+    position: absolute;
+    top: 84px;
+    left: 67px;
+    right: 97px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer__columns {
+    display: grid;
+    grid-template-columns: 200px 200px 220px;
+    column-gap: 99px;
+}
+
+.footer__title {
+    margin: 0 0 20px;
+    color: #ffffff;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 1;
+}
+
+.footer__list {
+    display: flex;
+    flex-direction: column;
+    gap: 22px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.footer__list a {
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.1;
+    text-decoration: none;
+}
+
+.footer__list a:hover {
+    color: #dcd8ff;
+}
+
+.footer__subscribe {
+    width: 864px;
+}
+
+.footer__form {
+    display: flex;
+    width: 100%;
+    height: 77px;
+    margin-top: 25px;
+}
+
+.footer__input {
+    flex: 1;
+    min-width: 0;
+    padding: 0 45px;
+    border: none;
+    background-color: #4E4A67;
+    color: #ffffff;
+    font-size: 20px;
+    outline: none;
+}
+
+.footer__input::placeholder {
+    color: #ffffff;
+}
+
+.footer__button {
+    width: 163px;
+    border: none;
+    background-color: #ffffff;
+    color: #2A254B;
+    font-size: 22px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.footer__button:hover {
+    background-color: #f0f0f0;
+}
+
+.footer__bottom {
+    position: absolute;
+    left: 64px;
+    right: 97px;
+    bottom: 30px;
+    padding-top: 36px;
+    border-top: 1px solid #4E4D93;
+}
+
+.footer__copyright {
+    margin: 0;
+    color: #ffffff;
+    font-size: 20px;
+    line-height: 1;
+}
